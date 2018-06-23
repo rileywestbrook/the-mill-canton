@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1225px) {
+  #history #formerly {
+    margin-left: 7%;
+  }
+  #history #mill-1 {
+    margin-right: 7%;
+  }
+  #video-con {
+    width: 1000px;
+    height: 564px;
+  }
+  body .rgr-con {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  body .rgr {
+    width: 100%;
+    height: auto;
+    grid-gap: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .rgr-con .rgr h2 {
+    margin-top: 20px;
+  }
+  #tenants .row h1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .mill-logo {
+    height: 450px;
+  }
+  .coming-soon {
+    height: 40px;
+  }
+  nav .main-nav li {
+    margin: 0 60px;
+  }
+  body .rgr {
+    padding-bottom: 20px;
+    width: 110%;
+  }
+  #tenants .row h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #video-con {
+    width: 800px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #paragraph-columns {
+    grid-template-columns: none;
+  }
+  #history #paragraph-columns #formerly,
+  #history #paragraph-columns #mill-1 {
+    padding: 0;
+    margin: 10px 9%;;
+  }
+  #site-map {
+    margin-top: -95px;
+  }
+  body .rgr-con {
+    grid-template-columns: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -95px;
+  }
+  body .rgr {
+    background-color:#fcfcfc;
+    color: black;
+    margin: 0 auto;
+  }
+  #problem-h2 {
+    margin-top: 60px;
+  }
+  body .rgr ul {
+    margin: 0 auto;
+    width: 60%;
+  }
+  body .bottom-line {
+    background-color: black;
+  }
+  footer .footer-address,
+  footer .footer-email {
+    float: none;
+    display: table;
+  }
+
+  footer .footer-address {
+    margin-bottom: 20px;
+  }
+
+  footer .footer-email p {
+    padding-left: 82px;
+  }
+
+  footer .footer-address .ion-md-home {
+    margin-right: 13px;
+  }
+  footer .footer-social {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .main-nav {
+    display: none;
+  }
+  .long-copy {
+    font-size: 100%;
+    width: 90%;
+    margin-left: 5%;;
+  }
+  .mill-logo {
+    margin-top: 130px;
+    height: 300px;
+  }
+  .coming-soon {
+    height: 34px;
+  }
+  #video {
+    overflow:hidden;
+    padding: 0;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin: 0;
+  }
+  #video-con {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  #paragraph-columns p {
+    font-size: 85%;
+  }
+  header .row #hamburger {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 45px;
+    display: grid;
+  }
+  #tenants .row h1 {
+    border: none;
+    margin-top: -20px;
+    font-size: 180%;
+  }
+  .row {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  footer {
+    height: 85vh;
+  }
+  footer h2 {
+    font-size: 110%;
+    padding: 0 5%;
+  }
+  footer .footer-contact i,
+  footer .footer-social i {
+    font-size: 40px;
+  }
+  .footer-address p {
+    padding-left: 85px;
+    font-size: 80%;
+  }
+  footer .footer-email p {
+    padding-top: 5px;
+    padding-left: 95px;
+    font-size: 80%
+  }
+}

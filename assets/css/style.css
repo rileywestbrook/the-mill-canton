@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent; 
+}
+
+html,
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.row {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 200%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 130%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+header {
+  background: url("../img/hero.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav .row {
+  margin: 0 auto;
+}
+
+header a:link,
+header a:visited {
+  color: #fffdee;
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+header a:hover,
+header a:active {
+  color: #888;
+  border-bottom: 2px solid #fff;
+}
+
+.main-nav {
+  list-style: none;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 0 100px;
+  font-size: 110%;
+}
+
+.hero {
+ display: block;
+ margin: 0 auto;
+}
+
+.mill-logo {
+  float: none;
+  margin: 200px auto 50px auto;
+  display: block;
+  height: 450px;
+}
+.coming-soon {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  height: 40px;
+}
+
+/* ----------------------------------------------- */
+/* SIDENAV */
+/* ----------------------------------------------- */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #202220;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFDEE;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+#hamburger {
+  display: none;
+  color: #FFFDEE;
+  cursor: pointer;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+
+
+/* ----------------------------------------------- */
+/* BIO PARAGRAPH */
+/* ----------------------------------------------- */
+
+.long-copy {
+  width: 70%;
+  margin-left: 15%;
+  line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 130%;
+  letter-spacing: 1px;
+  min-width: 375px;
+  text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* VIDEO */
+/* ----------------------------------------------- */
+
+#video {
+  background-color: #FCFCFC;
+}
+
+#video-con {
+  height: 647px;
+  overflow: hidden;
+}
+
+#video-con iframe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+/* ----------------------------------------------- */
+/* HISTORY */
+/* ----------------------------------------------- */
+
+#history h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#paragraph-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#paragraph-columns p {
+  font-size: 90%;
+  line-height: 2.2rem;
+}
+
+#paragraph-columns #formerly {
+  padding-right: 30px;
+}
+
+#paragraph-columns #mill-1 {
+  padding-left: 30px;
+}
+
+/* ----------------------------------------------- */
+/* SITEMAP */
+/* ----------------------------------------------- */
+/*#map .row:before {
+  display: none;
+}
+
+#site-map {
+  height: auto;
+}
+
+#rendering {
+  width: 100%;
+  height: auto;
+}
+
+.color-wrapper {
+  background-color: #fcfcfc;
+  padding-top: 10px;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+
+.rgr-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 80px;
+  grid-gap: 50px;
+}
+
+.rgr {
+  width: 350px;
+  height: 400px;
+  background-color:#202220;
+  color: #fffdee;
+}
+
+.rgr h2 {
+  text-align: center;
+  margin: 35px 0px 15px 0;
+}
+
+.rgr li {
+  font-size: 90%;
+  margin: 0px 55px 25px 55px;
+  line-height: 1.6rem;
+}
+
+.bottom-line {
+  width: 80px;
+  height: 3px;
+  background-color: #fffdee;
+  margin: 0 auto 25px auto;
+} */
+
+/* ----------------------------------------------- */
+/* TENANTS */
+/* ----------------------------------------------- */
+
+#tenants {
+  height: 350px;
+  background-color: #FCFCFC;
+  overflow: hidden;
+}
+
+#tenants .row h1 {
+  text-align: center;
+  border: 3px solid #202220;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+  background-color: #202220;
+  height: 65vh;
+  color: #fffdee;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+footer .icon {
+  font-size: 60px;
+}
+
+footer .row:before {
+  display: none;
+}
+
+footer h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+footer p {
+  line-height: 2rem;
+}
+
+.footer-contact {
+  width: 800px;
+}
+
+.footer-address {
+  margin: 0 auto;
+  float: left;
+}
+
+.footer-email {
+  margin: 0 auto;
+  float: right;
+}
+
+footer i,
+footer p {
+  float: left;
+}
+
+.footer-address p {
+  padding-top: 7px;
+  padding-left: 60px;
+  text-align: center;
+}
+
+.footer-email p {
+  padding-top: 22px;
+  padding-left: 60px;
+}
+
+
+.footer-line {
+  width: 400px;
+  height: 1px;
+  background-color: #fffdee;
+  margin: 80px auto 0 auto;
+
+}
+
+.footer-social {
+  margin: 50px auto 0 auto;
+  display: table;
+}
+
+.footer-social .ion-logo-facebook,
+.footer-social .ion-logo-instagram {
+  padding-right: 15px;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #fffdee;
+}
