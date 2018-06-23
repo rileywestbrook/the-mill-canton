@@ -9,20 +9,6 @@
     width: 1000px;
     height: 564px;
   }
-  body .rgr-con {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  body .rgr {
-    width: 100%;
-    height: auto;
-    grid-gap: auto;
-    margin: 0 auto;
-    padding-bottom: 40px;
-  }
-  .rgr-con .rgr h2 {
-    margin-top: 20px;
-  }
   #tenants .row h1 {
     margin-left: 5%;
     margin-right: 5%;
@@ -35,13 +21,6 @@
   }
   .coming-soon {
     height: 40px;
-  }
-  nav .main-nav li {
-    margin: 0 60px;
-  }
-  body .rgr {
-    padding-bottom: 20px;
-    width: 110%;
   }
   #tenants .row h1 {
     padding-left: 20px;
@@ -64,30 +43,6 @@
   #history #paragraph-columns #mill-1 {
     padding: 0;
     margin: 10px 9%;;
-  }
-  #site-map {
-    margin-top: -95px;
-  }
-  body .rgr-con {
-    grid-template-columns: none;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: -95px;
-  }
-  body .rgr {
-    background-color:#fcfcfc;
-    color: black;
-    margin: 0 auto;
-  }
-  #problem-h2 {
-    margin-top: 60px;
-  }
-  body .rgr ul {
-    margin: 0 auto;
-    width: 60%;
-  }
-  body .bottom-line {
-    background-color: black;
   }
   footer .footer-address,
   footer .footer-email {
@@ -112,9 +67,6 @@
 }
 
 @media only screen and (max-width: 850px) {
-  .main-nav {
-    display: none;
-  }
   .long-copy {
     font-size: 100%;
     width: 90%;
@@ -144,13 +96,6 @@
   }
   #paragraph-columns p {
     font-size: 85%;
-  }
-  header .row #hamburger {
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 40px;
-    font-size: 45px;
-    display: grid;
   }
   #tenants .row h1 {
     border: none;
